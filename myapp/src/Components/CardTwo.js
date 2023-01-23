@@ -2,7 +2,10 @@ import React from 'react'
 
 const CardTwo = () => {
     return (
-        // Plus Tier
+        /**
+         * A function that creates a card for the Plus plan.           
+         * @returns {JSX.Element} A card for the Plus plan.           
+         */
         <div class="col-lg-4">
             <div class="card mb-5 mb-lg-0">
                 <div class="card-body">
@@ -10,15 +13,14 @@ const CardTwo = () => {
                     <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
                     <hr />
                     <ul class="fa-ul">
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Users</strong></li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage</li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
-                        <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Subdomain</li>
-                        <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
-                            Reports</li>
+                        <li><span><i class="bi bi-check2"></i></span>  <strong>5 Users</strong></li>
+                        <li><span><i class="bi bi-check2"></i></span>  50GB Storage</li>
+                        <li><span><i class="bi bi-check2"></i></span>  Unlimited Public Projects</li>
+                        <li><span><i class="bi bi-check2"></i></span>  Community Access</li>
+                        <li><span><i class="bi bi-check2"></i></span>  Unlimited Private Projects</li>
+                        <li><span><i class="bi bi-check2"></i></span>  Dedicated Phone Support</li>
+                        <li><span><i class="bi bi-check2"></i></span>  Free Subdomain</li>
+                        <li class="text-muted"><span><i class="bi bi-x-lg"></i></span>  Monthly Status Reports</li>
                     </ul>
                     <div class="d-grid">
                         <a href="#!" class="btn btn-primary text-uppercase">Button</a>

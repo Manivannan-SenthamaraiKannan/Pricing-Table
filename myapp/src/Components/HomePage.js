@@ -6,6 +6,10 @@ import '../Styles/HomePage.css'
 
 function HomePage() {
     return (
+        /**
+         * A component that renders the pricing section of the site.       
+         * @returns None       
+         */
         <>
             <section class="pricing py-5">
                 <div class="container">
